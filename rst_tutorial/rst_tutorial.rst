@@ -1,6 +1,5 @@
 .. raw:: html
 
-    
    <h1 style="text-align: center;">How to Create an RST Webpage</h1>
 
 **Setup / What You'll Need**

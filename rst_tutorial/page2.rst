@@ -33,7 +33,7 @@ Folder Structure:
 
     <div style="text-align: center;">
         <iframe
-            src="images/DFX Pt2.pdf"
+            src="images/DFX_Pt2.pdf"
             width= 80%
             height= "600">
         </iframe>
