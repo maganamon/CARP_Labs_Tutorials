@@ -40,6 +40,14 @@ module tb_top_level_serdes;
         CLK <= ~CLK;
     end
 
+    logic eye_serial_data;
+
+    always @(negedge CLK) begin
+        if (RST)
+            eye_serial_data <= 1'b0;
+        else
+            eye_serial_data <= serial_data;
+    end
     /*
      * Send one parallel word and verify the complete transfer.
      */
