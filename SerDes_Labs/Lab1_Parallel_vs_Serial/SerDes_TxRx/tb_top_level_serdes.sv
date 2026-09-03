@@ -297,7 +297,7 @@ module tb_top_level_serdes;
         /*
          * Pseudorandom tests.
          */
-        repeat (20) begin
+        repeat (92) begin
             send_and_check(
                 WIDTH'($urandom())
             );
