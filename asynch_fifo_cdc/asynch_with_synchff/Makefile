@@ -89,4 +89,4 @@ clean:
 
 genus_cdc:
 	mkdir -p build
-	genus -files ../genus_cdc.tcl -log build/genus
+	genus -files genus_cdc.tcl -log build/genus
