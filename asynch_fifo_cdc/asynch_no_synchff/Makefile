@@ -29,7 +29,7 @@ vsim:
 
 
 msy_build:
-	$(VIVADO) -mode batch -source "./scripts/create_project.tcl"
+	$(VIVADO) -mode batch -source "./create_project.tcl"
 	@cat build/cdc_summary.rpt
 
 msy_open:
