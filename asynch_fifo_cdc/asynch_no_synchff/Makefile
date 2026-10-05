@@ -34,3 +34,7 @@ msy_build:
 
 msy_open:
 	$(VIVADO) "./vivado_project/asynch_fifo.xpr"
+
+genus_cdc:
+	mkdir -p build
+	genus -files ../genus_cdc.tcl -log build/genus

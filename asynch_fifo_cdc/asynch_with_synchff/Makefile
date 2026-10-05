@@ -86,3 +86,7 @@ msy_open:
 clean:
 	rm -rf $(BUILD) obj_dir
 	rm -f *.vcd
+
+genus_cdc:
+	mkdir -p build
+	genus -files ../genus_cdc.tcl -log build/genus
