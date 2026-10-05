@@ -21,7 +21,7 @@ module asynch_fifo #(parameter WIDTH = 32, DEPTH = 4, NUM_SFF = 2)(
     output logic [WIDTH - 1:0] rd_data_o,
 
     output logic full,
-    output logic empty,
+    output logic empty
 );
 
     localparam CL2_D = $clog2(DEPTH);
